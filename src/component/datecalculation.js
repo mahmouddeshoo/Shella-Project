@@ -12,6 +12,7 @@
                     <a href={"https://www.google.com/"} rel={"#"}>سجل الآن</a>
                 </div>
             </div>
+            {/* calender image */}
             <div className={"date-calculation-part2"}>
                 <img src={datePart} alt={"Date Part"} />
             </div>

@@ -7,10 +7,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown} from '@fortawesome/free-solid-svg-icons'
 function Header() {
     return(
+        // logo part
         <header className={"header"}>
             <div className={"logo"}>
                 <img src={logo}  alt={"Logo"}/>
             </div>
+            {/* language part */}
             <div className={"header-btn"}>
             <img src={Flag}  alt={"flag"}/>
                 <span>العربية</span>
