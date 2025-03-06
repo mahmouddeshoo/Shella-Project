@@ -1,0 +1,134 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Readex Pro", sans-serif;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    box-sizing: border-box;
+    direction: rtl;
+    background-color: #fff;
+  }
+  
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .logo img {
+    width: 171px;
+    height: 78px;
+
+  }
+  
+  .header-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #D8D8D8;
+    padding: 15px 20px;
+    gap: 8px;
+    width: 160px;
+    height: 50px;
+    border-radius: 6px;
+    
+
+  }
+  
+  .header-btn img {
+    height: 20px;
+    width: 20px;
+  }
+  
+  .header-btn span {
+    font-size: 13px;
+    font-weight: 400;
+    color:#2D3633;
+  }
+  
+  .header-btn button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+  }
+  
+  
+  .bigcontainer{
+    padding: 5px 50px;
+    gap: 9px;
+  }
+.hero-sction {
+    background-image: url('../img/herobg.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 650px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: #fff;
+    border-radius: 8px;
+  }
+  
+  .hero-sction h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 1.5rem;
+    line-height: 3rem;
+
+  }
+  
+  .hero-sction h1 span {
+    color: #00a64f; 
+  }
+  
+  .hero-sction h2 {
+    font-size: 2rem;
+    margin-top: 10px;
+    line-height: 2.5rem;
+    color: #fff;
+  }
+  .hero-sction h2 span{
+    color: grey;
+  }
+  
+  .hero-sction button {
+    margin-top: 20px;
+    padding: 16px 24px;
+    font-size: 1rem;
+    line-height: 1.3rem ;
+    font-weight: 600;
+    background-color:#FA9D2B;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+  }
+  .under-hero{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#EAF6EC;
+  }
+  .under-hero-right{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  
+  
