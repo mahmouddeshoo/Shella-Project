@@ -13,9 +13,9 @@ function GetApp(){
                 <p>احصل على كل ما تحتاجه من المطاعم والسوبر ماركت والمزيد مع الخدمات المميزة</p>
             </div>
             <div className={"getapp-section-links"}>
-                <a href={"https://www.google.com/"} rel={""}><img src={appStore} alt={"App Store"} /></a>
-                <a href={"https://www.google.com/"} re={""}><img src={playStore} alt={"Play Store"} /></a>
-                <a href={"https://www.google.com/"} rel={""}><img src={appGallery} alt={"App Gallery"} /></a>
+                <a href={"/"} rel={""}><img src={appStore} alt={"App Store"} /></a>
+                <a href={"/"} re={""}><img src={playStore} alt={"Play Store"} /></a>
+                <a href={"/"} rel={""}><img src={appGallery} alt={"App Gallery"} /></a>
             </div>
         </section>
     );

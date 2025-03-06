@@ -14,9 +14,9 @@ function AppDwonload(){
                 <h3>حمل تطبيق شلة على جوالك واطلب بضغطة زر</h3>
                 
                 <div className={"under-hero-right-links"}>
-                <a href={"https://www.google.com/"} rel={""}><img src={appStore} alt={"App Store"} /></a>
-                <a href={"https://www.google.com/"} re={""}><img src={googlePlay} alt={"Play Store"} /></a>
-                <a href={"https://www.google.com/"} rel={""}><img src={appGallery} alt={"App Gallery"} /></a>
+                <a href={"/"} rel={""}><img src={appStore} alt={"App Store"} /></a>
+                <a href={"/"} re={""}><img src={googlePlay} alt={"Play Store"} /></a>
+                <a href={"/"} rel={""}><img src={appGallery} alt={"App Gallery"} /></a>
                 </div>
             </div>
             <div className={"under-hero-left"}>

@@ -21,10 +21,10 @@ function Footer(){
                     <p>الشركة </p>
                     <div className={"footer-list-item"}>
                         <ul>
-                            <a href={""} rel={""}><li>عن شلة</li></a>
-                            <a href={""} rel={""}><li>الوظائف</li></a>
-                            <a href={""} rel={""}><li>اسئلة واجوبة</li></a>
-                            <a href={""} rel={""}><li>الشريعة الاسلامية</li></a>
+                            <a href={"/"} rel={""}><li>عن شلة</li></a>
+                            <a href={"/"} rel={""}><li>الوظائف</li></a>
+                            <a href={"/"} rel={""}><li>اسئلة واجوبة</li></a>
+                            <a href={"/"} rel={""}><li>الشريعة الاسلامية</li></a>
 
                         </ul>
                     </div>
@@ -33,10 +33,10 @@ function Footer(){
                     <p>القانونية</p>
                     <div className={"footer-list-item"}>
                         <ul>
-                            <a href={""} rel={""}><li>شروط قيدها</li></a>
-                            <a href={""} rel={""}><li>سياسة الخصوصية</li></a>
-                            <a href={""} rel={""}><li>الشروط والاحكام</li></a>
-                            <a href={""} rel={""}><li>الإبلاغ عن المخالفات</li></a> 
+                            <a href={"/"} rel={""}><li>شروط قيدها</li></a>
+                            <a href={"/"} rel={""}><li>سياسة الخصوصية</li></a>
+                            <a href={"/"} rel={""}><li>الشروط والاحكام</li></a>
+                            <a href={"/"} rel={""}><li>الإبلاغ عن المخالفات</li></a> 
                         </ul>
                     </div>
                 </div>
@@ -44,10 +44,10 @@ function Footer(){
                     <p>التطبيق</p>
                     <div className={"footer-list-item"}>
                         <ul>
-                            <a href={""} rel={""}><li>الإنضمام كعامل توصيل</li></a>
-                            <a href={""} rel={""}><li>الانضمام كشريك تاجر</li></a>
-                            <a href={""} rel={""}><li>الانضمام كمنفذ خدمة</li></a>
-                            <a href={""} rel={""}><li>الانضمام كمستثمر معنا</li></a>
+                            <a href={"/"} rel={""}><li>الإنضمام كعامل توصيل</li></a>
+                            <a href={"/"} rel={""}><li>الانضمام كشريك تاجر</li></a>
+                            <a href={"/"} rel={""}><li>الانضمام كمنفذ خدمة</li></a>
+                            <a href={"/"} rel={""}><li>الانضمام كمستثمر معنا</li></a>
                         </ul>
                     </div>
                 </div>
@@ -55,8 +55,8 @@ function Footer(){
                     <p>خدمة العملاء</p>
                     <div className={"footer-list-item"}>
                         <ul>
-                            <a href={""} rel={""}><li>اقرارات العملاء</li></a>
-                            <a href={""} rel={""}><li>تواصل معنا</li></a>
+                            <a href={"/"} rel={""}><li>اقرارات العملاء</li></a>
+                            <a href={"/"} rel={""}><li>تواصل معنا</li></a>
                         </ul>
                     </div>
                 </div>
@@ -68,10 +68,10 @@ function Footer(){
                     <p>ShellaKsa 2024</p>
                 </div>
                 <div className={"footer-social"}>
-                    <a href={"https://www.google.com/"} rel={""}><img src={Twitter} alt={"Twitter"} /></a>
-                    <a href={"https://www.google.com/"} rel={""}><img src={Instagram} alt={"Instagram"} /></a>
-                    <a href={"https://www.google.com/"} rel={""}><img src={Linkedin} alt={"Linkedin"} /></a>
-                    <a href={"https://www.google.com/"} rel={""}><img src={Facebook} alt={"Facebook"} /></a>
+                    <a href={"/"} rel={""}><img src={Twitter} alt={"Twitter"} /></a>
+                    <a href={"/"} rel={""}><img src={Instagram} alt={"Instagram"} /></a>
+                    <a href={"/"} rel={""}><img src={Linkedin} alt={"Linkedin"} /></a>
+                    <a href={"/"} rel={""}><img src={Facebook} alt={"Facebook"} /></a>
                 </div>
             </div>
 

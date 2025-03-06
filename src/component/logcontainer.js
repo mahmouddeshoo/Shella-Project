@@ -24,7 +24,7 @@ function RegesterContainer(){
                     </div>
                     <div className={"register-container-title-link"}>
                     <span><FontAwesomeIcon icon={faChevronRight} style={{ fontSize: '15px', color: '#2D3633'}}/></span>
-                        <a href={"https://www.google.com/"} rel={""}>سجل الآن</a>
+                        <a href={"/"} rel={""}>سجل الآن</a>
                     </div>
                 </div>
             </div>
@@ -39,7 +39,7 @@ function RegesterContainer(){
                     </div>
                     <div className={"register-container-title-link"}>
                     <span><FontAwesomeIcon icon={faChevronRight} style={{ fontSize: '15px', color: '#2D3633'}}/></span>
-                        <a href={"https://www.google.com/"} rel={""}>سجل الآن</a>
+                        <a href={"/"} rel={""}>سجل الآن</a>
                     </div>
                 </div>
             </div>
@@ -54,7 +54,7 @@ function RegesterContainer(){
                     </div>
                     <div className={"register-container-title-link"}>
                     <span><FontAwesomeIcon icon={faChevronRight} style={{ fontSize: '15px', color: '#2D3633'}}/></span>
-                        <a href={"https://www.google.com/"} rel={""}>سجل الآن</a>
+                        <a href={"/"} rel={""}>سجل الآن</a>
                     </div>
                 </div>
             </div>
@@ -69,7 +69,7 @@ function RegesterContainer(){
                     </div>
                     <div className={"register-container-title-link"}>
                     <span><FontAwesomeIcon icon={faChevronRight} style={{ fontSize: '15px', color: '#2D3633'}}/></span>
-                    <a href={"https://www.google.com/"} rel={""}>سجل الآن</a>
+                    <a href={"/"} rel={""}>سجل الآن</a>
                     </div>
                 </div>
             </div>
