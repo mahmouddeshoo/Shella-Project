@@ -65,7 +65,7 @@ function Footer(){
             </div>
             <div>
                 <div>
-                    <apan>C</apan>
+                    <span>C</span>
                     <p>ShellaKsa 2024</p>
                 </div>
                 <div>

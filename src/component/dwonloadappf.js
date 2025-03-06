@@ -8,12 +8,12 @@ import godotIcon from './img/godot.png';
 
 function AppDwonload(){
     return(
-        <section classname={"underhero"}>
+        <section className={"underhero"}>
             <div className={"under-hero-right"}>
                 <h2>تطبيق الجوال </h2>
                 <h3>حمل تطبيق شلة على جوالك واطلب بضغطة زر</h3>
                 
-                <div classname={""}>
+                <div className={""}>
                 <a href={"https://www.google.com/"} rel={""}><img src={appStore} alt={"App Store"} /></a>
                 <a href={"https://www.google.com/"} re={""}><img src={googlePlay} alt={"Play Store"} /></a>
                 <a href={"https://www.google.com/"} rel={""}><img src={appGallery} alt={"App Gallery"} /></a>
