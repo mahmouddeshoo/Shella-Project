@@ -1,9 +1,11 @@
-import './component/css/style.css'
-import Header from './component/header'
-import Hero from './component/hero' 
+import './component/css/style.css';
+import Header from './component/header';
+import Hero from './component/hero'; 
 import AppDwonload from './component/dwonloadappf';
 import DateCalculation from './component/datecalculation';
-import RegesterContainer from './component/logcontainer'
+import RegesterContainer from './component/logcontainer';
+import Footer from './component/footer';
+import GetApp from './component/getapp';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <AppDwonload />
       <DateCalculation />
       <RegesterContainer />
+      <GetApp />
+      <Footer />
     </div>
     </div>
   );

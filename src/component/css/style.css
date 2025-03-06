@@ -11,7 +11,7 @@
     background-color: #fff;
   }
   
-  
+ /*Header style*/ 
   .header {
     display: flex;
     justify-content: space-between;
@@ -67,6 +67,7 @@
     padding: 5px 50px;
     gap: 9px;
   }
+   /*Hero style*/ 
 .hero-sction {
     background-image: url('../img/herobg.png'); 
     background-size: cover;
@@ -116,19 +117,160 @@
     color: #fff;
     cursor: pointer;
   }
-  .under-hero{
-    padding: 100px;
+   /*dwoloadinapp style*/ 
+   .underhero {
+    width: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
-    background-color:#EAF6EC;
+    justify-content: space-between;
+    padding: 50px; 
+    background-color: #f0f9f4; 
+    margin-top: 5px;
+
   }
-  .under-hero-right{
-    display:flex;
+  
+  .under-hero-right {
+    text-align: right;
+
+  }
+  
+  .under-hero-right h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #2D3633;
+    margin-bottom: 10px;
+  }
+  
+  .under-hero-right h3 {
+    font-size: 1.5rem; 
+    color: #666; 
+    margin-bottom: 20px;
+  }
+  
+  .under-hero-right a {
+    display: inline-block;
+    margin-left: 10px; 
+  }
+  
+  .under-hero-right a img {
+    height: 40px; 
+    width: auto;
+  }
+  
+  .under-hero-left {
+    display: flex;
+    align-items: center;
     justify-content: flex-start;
-    align-items: center;
-    flex-direction: column;
   }
+  
+  .under-hero-left img {
+    height: 300px; 
+    width: auto;
+    margin-left: 10px;
+  }
+  
+  
+  .under-hero-left-img1 {
+      max-width: 100%;
+      height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .underhero {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .under-hero-right,
+    .under-hero-left {
+      width:50%;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    .under-hero-left img {
+      max-width: 80%;
+      height: auto;
+    }
+  }
+
+.date-calculation {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: #f0f9f4; 
+  border-radius: 8px;
+
+}
+
+.date-calculation-part1 {
+  width: 50%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.date-calculation-part1 h2{
+  font-size: 2.5rem; 
+  color: #388e3c; 
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.date-calculation-part1 h3{
+  font-size: 1.9rem;
+  color: #2D3633;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.date-calculation-part1 p {
+  font-size: 1.4rem; 
+  font-weight: 400;
+  color: #2D3633; 
+  margin-bottom: 30px;
+}
+
+.date-calculation-part1 a {
+  width: 100%;
+  height: 52px;
+  padding: 16px 24px;
+  background-color: #388e3c; 
+  color: #fff; 
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+.date-calculation-part2 {
+  width: 50%; 
+  text-align: center;
+}
+
+.date-calculation-part2 img {
+  max-width: 100%;
+  overflow: hidden;
+  height: auto;
+}
+
+@media (max-width: 1080px) {
+  .date-calculation {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .date-calculation-part1,
+  .date-calculation-part2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
   
   
   
