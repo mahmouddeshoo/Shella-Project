@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Shella-Project/static/css/main.31abe9c9.css",
+    "main.js": "/Shella-Project/static/js/main.63c29f7f.js",
+    "static/js/453.d2d9c632.chunk.js": "/Shella-Project/static/js/453.d2d9c632.chunk.js",
+    "static/media/herobackground.png": "/Shella-Project/static/media/herobackground.f102c8aa3189c665545e.png",
+    "static/media/date 1.png": "/Shella-Project/static/media/date 1.61fc3c881bd234080c94.png",
+    "static/media/iPhone.png": "/Shella-Project/static/media/iPhone.9306585c38c4dc47aee4.png",
+    "static/media/saudiarabia.png": "/Shella-Project/static/media/saudiarabia.d2f9a327dbe85a9c1ab5.png",
+    "static/media/godot.png": "/Shella-Project/static/media/godot.f402c582f753725b6478.png",
+    "index.html": "/Shella-Project/index.html",
+    "main.31abe9c9.css.map": "/Shella-Project/static/css/main.31abe9c9.css.map",
+    "main.63c29f7f.js.map": "/Shella-Project/static/js/main.63c29f7f.js.map",
+    "453.d2d9c632.chunk.js.map": "/Shella-Project/static/js/453.d2d9c632.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31abe9c9.css",
+    "static/js/main.63c29f7f.js"
+  ]
+}
