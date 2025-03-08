@@ -1,14 +1,21 @@
-import './css/style.css'
+import './css/style.css';
 
-function Hero(){
-    return(
-        <section className={"hero-sction"}>
-            <div className={"hero-title"}>
-               <h1>مع <span>شلة</span> كل احتياجاتك بضغطة زر</h1>
-               <h2>اكثر من <span>60,000</span> مطعم ومتجر</h2>
+function Hero() {
+    return (
+        <section className="hero-section">
+            <div className="hero-title fade-in">
+                <h1>
+                    مع <span>شلة</span> كل احتياجاتك بضغطة زر
+                </h1>
+                <h2>
+                    أكثر من <span>60,000</span> مطعم ومتجر
+                </h2>
             </div>
-            <button>تصفح الآن</button>
+            <button className="slide-up" aria-label="تصفح جميع المطاعم والمتاجر الآن">
+                تصفح الآن
+            </button>
         </section>
-    )
+    );
 }
+
 export default Hero;

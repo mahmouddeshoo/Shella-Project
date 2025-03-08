@@ -1,24 +1,43 @@
-
-
+import React, { useState, useEffect } from 'react';
 import './css/style.css';
-import logo from'./img/Shella logo.png';
+import logo from './img/Shellalogo.png';
 import Flag from './img/saudiarabia.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronDown} from '@fortawesome/free-solid-svg-icons'
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
+
 function Header() {
-    return(
-        // logo part
-        <header className={"header"}>
-            <div className={"logo"}>
-                <img src={logo}  alt={"Logo"}/>
+    const [showHeader, setShowHeader] = useState(true);
+
+    const handleScroll = () => {
+        if (window.scrollY > 50) {
+            setShowHeader(false);
+        } else {
+            setShowHeader(true);
+        }
+    };
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
+    return (
+        <header className={`header ${showHeader ? 'visible' : 'hidden'}`}>
+            <div className="logo">
+                <img src={logo} alt="Shella company logo" />
             </div>
-            {/* language part */}
-            <div className={"header-btn"}>
-            <img src={Flag}  alt={"flag"}/>
+            <div className="header-btn">
+                <img src={Flag} alt="Flag of Saudi Arabia" />
                 <span>العربية</span>
-              <button><FontAwesomeIcon icon={faChevronDown} style={{ fontSize: '24px', color: '#2ecc71'}}/></button>
+                <button>
+                    <FontAwesomeIcon icon={faChevronDown} style={{ fontSize: '24px', color: '#2ecc71' }} />
+                </button>
             </div>
-        </header> 
+        </header>
     );
 }
+
 export default Header;
+
