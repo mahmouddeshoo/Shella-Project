@@ -1,20 +1,32 @@
-import './css/style.css';
+import './css/landingpage.css';
 import datePart from './img/date 1.png';
 
 function DateCalculation() {
-    return( 
-        <section className="date-calculation">
-            <div className="date-calculation-part1 slide-right">
-                <div>
-                    <h2>مع قيدها</h2>
-                    <h3>لا تحسب كم باقي على الراتب</h3>
-                    <p>شوف كم ناقصك في بيتك مقاضي واحنا نعطيك علي الراتب!</p>
-                    <a href="/" rel="noopener noreferrer" aria-label="سجل الآن للحصول على المزيد من التفاصيل">سجل الآن</a>
+    return (
+        <section className="date-calculation" aria-labelledby="date-calculation-title">
+            <div className="date-calculation-container">
+                <div className="date-calculation-part1 slide-right">
+                    <div>
+                        <h2 id="date-calculation-title">مع قيدها</h2>
+                        <h3>لا تحسب كم باقي على الراتب</h3>
+                        <p>شوف كم ناقصك في بيتك مقاضي واحنا نعطيك علي الراتب!</p>
+                        <a
+                            href="/signup"
+                            rel="noopener noreferrer"
+                            aria-label="سجل الآن للحصول على المزيد من التفاصيل"
+                            className="date-calculation-link"
+                        >
+                            سجل الآن
+                        </a>
+                    </div>
                 </div>
-            </div>
-            {/* Calendar image */}
-            <div className="date-calculation-part2 slide-left">
-                <img src={datePart} alt="تقويم يوضح جزء من التاريخ" />
+                <div className="date-calculation-part2 slide-left">
+                    <img
+                        src={datePart}
+                        alt="تقويم يوضح الأيام المتبقية حتى الراتب"
+                        loading="lazy"
+                    />
+                </div>
             </div>
         </section>
     );

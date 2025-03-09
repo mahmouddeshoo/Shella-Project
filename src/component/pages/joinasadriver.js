@@ -31,7 +31,7 @@ function Header() {
             <div className="header-btn">
                 <img src={Flag} alt="Flag of Saudi Arabia" />
                 <span>العربية</span>
-                <button aria-label="تغيير اللغة">
+                <button>
                     <FontAwesomeIcon icon={faChevronDown} style={{ fontSize: '24px', color: '#2ecc71' }} />
                 </button>
             </div>
@@ -40,3 +40,5 @@ function Header() {
 }
 
 export default Header;
+  
+
