@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/Shella-Project/static/css/main.f5730f78.css",
-    "main.js": "/Shella-Project/static/js/main.1e08e6e9.js",
+    "main.css": "/Shella-Project/static/css/main.b6dd22bd.css",
+    "main.js": "/Shella-Project/static/js/main.0baf52a0.js",
     "static/js/453.d2d9c632.chunk.js": "/Shella-Project/static/js/453.d2d9c632.chunk.js",
-    "static/media/herobackground.png": "/Shella-Project/static/media/herobackground.f102c8aa3189c665545e.png",
-    "static/media/date 1.png": "/Shella-Project/static/media/date 1.61fc3c881bd234080c94.png",
-    "static/media/iPhone.png": "/Shella-Project/static/media/iPhone.9306585c38c4dc47aee4.png",
+    "static/media/date 1.webp": "/Shella-Project/static/media/date 1.a6787ec8b7140e22f9a5.webp",
+    "static/media/herobackground.webp": "/Shella-Project/static/media/herobackground.0fc213755ae505656010.webp",
     "static/media/saudiarabia.png": "/Shella-Project/static/media/saudiarabia.d2f9a327dbe85a9c1ab5.png",
     "static/media/godot.png": "/Shella-Project/static/media/godot.f402c582f753725b6478.png",
+    "static/media/iPhone.webp": "/Shella-Project/static/media/iPhone.53c2afb4338156bff916.webp",
+    "static/media/Badge3.webp": "/Shella-Project/static/media/Badge3.577dea0a17146672f2a6.webp",
+    "static/media/Badge2.webp": "/Shella-Project/static/media/Badge2.5088fc20169307bcc6b0.webp",
+    "static/media/Badge1.webp": "/Shella-Project/static/media/Badge1.fb320c6b5dcb9582379d.webp",
     "index.html": "/Shella-Project/index.html",
-    "main.f5730f78.css.map": "/Shella-Project/static/css/main.f5730f78.css.map",
-    "main.1e08e6e9.js.map": "/Shella-Project/static/js/main.1e08e6e9.js.map",
+    "main.b6dd22bd.css.map": "/Shella-Project/static/css/main.b6dd22bd.css.map",
+    "main.0baf52a0.js.map": "/Shella-Project/static/js/main.0baf52a0.js.map",
     "453.d2d9c632.chunk.js.map": "/Shella-Project/static/js/453.d2d9c632.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5730f78.css",
-    "static/js/main.1e08e6e9.js"
+    "static/css/main.b6dd22bd.css",
+    "static/js/main.0baf52a0.js"
   ]
 }
