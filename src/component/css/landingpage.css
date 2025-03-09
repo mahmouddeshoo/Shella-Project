@@ -140,7 +140,7 @@
 }
 
 .hero-section button:hover {
-  background-color: #FFC107;
+  background-color: #2D3633;
 }
 
 /* App Download Style */
@@ -609,6 +609,7 @@ button.slide-up { animation: slideUp 3s ease-in-out 0.5s; }
 
 /* Media Queries */
 @media  (max-width: 1024px) {
+  .App-container{display: flex; flex-wrap: wrap;}
   .bigcontainer { padding: 0 2rem; }
   .header { padding: 0 1.5rem; }
   .logo img { max-width: 140px; }
@@ -630,8 +631,9 @@ button.slide-up { animation: slideUp 3s ease-in-out 0.5s; }
   .header-btn img { height: 1rem; }
   .hero-section { min-height: 400px; padding: 1rem; margin-top: 60px; }
   .under-hero-container { flex-wrap: wrap;}
-  .under-hero-left{background-size: cover; background-position: center; min-height: 300px;}
+  .under-hero-left{background-size:contain; background-position: center; min-height: 300px;}
   .under-hero-right-links{display: flex; gap:0.5rem;}
+  .under-hero-right a img{max-width: 90px;}
   .under-hero-right,
   .under-hero-left { width: 100%; text-align: start;}
   .under-hero-left-img2 { max-width: 150px; }
