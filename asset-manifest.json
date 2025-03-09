@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Shella-Project/static/css/main.ea0e0f48.css",
-    "main.js": "/Shella-Project/static/js/main.b434026c.js",
+    "main.css": "/Shella-Project/static/css/main.f5730f78.css",
+    "main.js": "/Shella-Project/static/js/main.1e08e6e9.js",
     "static/js/453.d2d9c632.chunk.js": "/Shella-Project/static/js/453.d2d9c632.chunk.js",
     "static/media/herobackground.png": "/Shella-Project/static/media/herobackground.f102c8aa3189c665545e.png",
     "static/media/date 1.png": "/Shella-Project/static/media/date 1.61fc3c881bd234080c94.png",
@@ -9,12 +9,12 @@
     "static/media/saudiarabia.png": "/Shella-Project/static/media/saudiarabia.d2f9a327dbe85a9c1ab5.png",
     "static/media/godot.png": "/Shella-Project/static/media/godot.f402c582f753725b6478.png",
     "index.html": "/Shella-Project/index.html",
-    "main.ea0e0f48.css.map": "/Shella-Project/static/css/main.ea0e0f48.css.map",
-    "main.b434026c.js.map": "/Shella-Project/static/js/main.b434026c.js.map",
+    "main.f5730f78.css.map": "/Shella-Project/static/css/main.f5730f78.css.map",
+    "main.1e08e6e9.js.map": "/Shella-Project/static/js/main.1e08e6e9.js.map",
     "453.d2d9c632.chunk.js.map": "/Shella-Project/static/js/453.d2d9c632.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea0e0f48.css",
-    "static/js/main.b434026c.js"
+    "static/css/main.f5730f78.css",
+    "static/js/main.1e08e6e9.js"
   ]
 }
