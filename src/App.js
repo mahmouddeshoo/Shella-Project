@@ -1,3 +1,4 @@
+
 import './component/css/landingpage.css';
 import Header from './component/header';
 import Hero from './component/hero'; 
