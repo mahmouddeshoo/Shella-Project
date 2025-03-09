@@ -1,5 +1,5 @@
 import './css/landingpage.css';
-import datePart from './img/date 1.png';
+import datePart from './img/date 1.webp';
 
 function DateCalculation() {
     return (

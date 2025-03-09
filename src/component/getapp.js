@@ -1,7 +1,7 @@
 import './css/landingpage.css';
-import appStore from './img/Badge1.png';
-import playStore from './img/Badge2.png';
-import appGallery from './img/Badge3.png';
+import appStore from './img/Badge1.webp';
+import playStore from './img/Badge2.webp';
+import appGallery from './img/Badge3.webp';
 
 function GetApp() {
     return (

@@ -86,7 +86,7 @@
 
 /* Hero Style */
 .hero-section {
-  background-image: url('../img/herobackground.png');
+  background-image: url('../img/herobackground.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -207,7 +207,7 @@
 
 .under-hero-left {
   width: 50%;
-  background-image: url('../img/iPhone.png');
+  background-image: url('../img/iPhone.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -450,7 +450,7 @@
 }
 
 .getapp-section-links a {
-  transition: transform 0.3s ease; /* Shortened from 3s */
+  transition: transform 0.3s ease; 
 }
 
 .getapp-section-links a:hover {
