@@ -10,7 +10,7 @@ import ScrollToTop from './component/ScrollToTop';
 
 function App() {
   return (
-    <div>
+    <div className='App-container'>
       <Header />
     <div className={"bigcontainer"}>
       <Hero />
