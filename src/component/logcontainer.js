@@ -38,11 +38,11 @@ function RegesterContainer() {
                   <FontAwesomeIcon
                     icon={faChevronRight}
                     style={{
-                      fontSize: "15px",
+                      fontSize: "0.8rem",
                       color: "#2D3633",
                       marginLeft: "20px",
                       backgroundColor: "#fa9d2b",
-                      padding: "3px",
+                      padding: "0.18rem",
                       borderRadius: "4px",
                     }}
                   />
@@ -73,11 +73,11 @@ function RegesterContainer() {
                   <FontAwesomeIcon
                     icon={faChevronRight}
                     style={{
-                      fontSize: "15px",
+                      fontSize: "0.8rem",
                       color: "#2D3633",
                       marginLeft: "20px",
                       backgroundColor: "#fa9d2b",
-                      padding: "3px",
+                      padding: "0.18rem",
                       borderRadius: "4px",
                     }}
                   />
@@ -114,11 +114,11 @@ function RegesterContainer() {
                   <FontAwesomeIcon
                     icon={faChevronRight}
                     style={{
-                      fontSize: "15px",
+                      fontSize: "0.8rem",
                       color: "#2D3633",
                       marginLeft: "20px",
                       backgroundColor: "#fa9d2b",
-                      padding: "3px",
+                      padding: "0.18rem",
                       borderRadius: "4px",
                     }}
                   />
@@ -149,11 +149,11 @@ function RegesterContainer() {
                   <FontAwesomeIcon
                     icon={faChevronRight}
                     style={{
-                      fontSize: "15px",
+                      fontSize: "0.8rem",
                       color: "#2D3633",
                       marginLeft: "20px",
                       backgroundColor: "#fa9d2b",
-                      padding: "3px",
+                      padding: "0.18rem",
                       borderRadius: "4px",
                     }}
                   />

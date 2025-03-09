@@ -103,7 +103,7 @@
 }
 
 .hero-section h1 {
-  font-size: clamp(1.5rem, 5vw, 2.5rem);
+  font-size: clamp(1.1rem, 5vw, 2.5rem);
   font-weight: 700;
   margin: 1rem 0;
   line-height: 1.2;
@@ -114,7 +114,7 @@
 }
 
 .hero-section h2 {
-  font-size: clamp(1rem, 3.5vw, 2rem);
+  font-size: clamp(0.9rem, 3.5vw, 2rem);
   font-weight: 400;
   margin-top: 0.5rem;
   line-height: 1.3;
@@ -204,6 +204,7 @@
   width: auto;
 }
 
+
 .under-hero-left {
   width: 50%;
   background-image: url('../img/iPhone.png');
@@ -290,7 +291,7 @@
 
 .date-calculation-part2 img {
   width: 100%;
-  /* max-width: 400px; */
+  
   height: auto;
 }
 
@@ -306,8 +307,8 @@
 .register-container-wrapper{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  /* align-items: stretch;  */
+  justify-content: flex-start; 
+  align-items: stretch; 
   gap: 0.6rem;
   /* padding: 0.5rem; */
 }
@@ -339,7 +340,7 @@
   background: linear-gradient(#BFE2C4, #EDEDED);
   text-align: center;
   padding: 0.625rem;
-  width: 48px;
+  /* width: 48px; */
   height: 100%;
   border-radius: 8px;
 }
@@ -349,7 +350,7 @@
   background: linear-gradient(#BFE2C4, #F9F9F9);
   text-align: center;
   padding: 0.625rem;
-  width: 48px;
+  /* width: 48px; */
   height: 100%;
   border-radius: 8px;
 }
@@ -607,19 +608,19 @@ button.slide-up { animation: slideUp 3s ease-in-out 0.5s; }
 .fourth-Fadein { animation: fadeIn 7s ease; }
 
 /* Media Queries */
-@media (max-width: 1024px) {
+@media  (max-width: 1024px) {
   .bigcontainer { padding: 0 2rem; }
   .header { padding: 0 1.5rem; }
   .logo img { max-width: 140px; }
   .header-btn { padding: 0.6rem 0.8rem; max-width: 140px; }
   .hero-section { min-height: 500px; padding: 1.5rem; margin-top: 70px; }
   .underhero { min-height: 400px; padding: 1.5rem; }
-  .date-calculation { min-height: 400px; padding: 1.5rem; }
+  .date-calculation-container { min-height: 400px; padding: 1.5rem; }
   .register-container { padding: 1.5rem; }
   .footer-logo-section {flex-wrap: wrap;}
 }
 
-@media (max-width: 768px) {
+@media  (max-width: 768px) {
   .App-container{display: flex; flex-wrap: wrap;}
   .bigcontainer { padding: 0 1rem; }
   .header { padding: 0 1rem; flex-wrap: wrap; }
@@ -628,23 +629,25 @@ button.slide-up { animation: slideUp 3s ease-in-out 0.5s; }
   .header-btn span { font-size: clamp(0.7rem, 2vw, 0.75rem); }
   .header-btn img { height: 1rem; }
   .hero-section { min-height: 400px; padding: 1rem; margin-top: 60px; }
-  .under-hero-container { flex-direction: column; min-height: auto; padding: 1rem; }
+  .under-hero-container { flex-wrap: wrap;}
+  .under-hero-left{background-size: cover; background-position: center; min-height: 300px;}
+  .under-hero-right-links{display: flex; gap:0.5rem;}
   .under-hero-right,
-  .under-hero-left { width: 100%; text-align: start; padding: 0; }
-  .under-hero-right-links { justify-content: center; }
+  .under-hero-left { width: 100%; text-align: start;}
   .under-hero-left-img2 { max-width: 150px; }
-  .date-calculation { flex-direction: column; min-height: auto; padding: 1rem; }
+  .date-calculation-container { flex-direction: column; min-height: 300px; padding: 1rem; }
   .date-calculation-part1,
   .date-calculation-part2 { width: 100%; padding: 0; }
   .register-container-gray1,
   .register-container-gray2,
   .register-container-white1,
   .register-container-white2 { width: 100%;}
-  .getapp-section { flex-direction: column; padding: 1rem 0; text-align: center; }
+  .getapp-section-container { flex-direction: column; padding: 1rem 0; text-align: center; }
   .getapp-section-title { flex-direction: column; }
+
 }
 
-@media (max-width: 480px) {
+@media  ( max-width: 480px) {
   .App-container{display: flex; flex-wrap: wrap;}
   .bigcontainer { padding: 0 0.2rem; }
   .header { padding: 0 0.5rem; }
@@ -654,23 +657,37 @@ button.slide-up { animation: slideUp 3s ease-in-out 0.5s; }
   .header-btn img { height: 0.9rem; }
   .hero-section { min-height: 300px; padding: 0.5rem; margin-top: 50px; border-radius: 4px; }
   .underhero { padding: 0.5rem; }
+  .under-hero-right{padding: 1rem;}
+  .under-hero-left{background-size: contain;}
   .under-hero-right h2 { margin-bottom: 0.5rem; }
   .under-hero-right h3 { margin-bottom: 1rem; }
-  .under-hero-right a img{max-width: 90px;}
+  .under-hero-right-links{display: flex; gap:0.5rem;}
+  .under-hero-right a img{max-width: 80px;}
   .under-hero-left-img2 { max-width: 100px; }
-  .date-calculation { padding: 0.5rem; }
+  .date-calculation-container { padding: 0.5rem; }
   .date-calculation-part1 a { padding: 0.75rem 1rem; }
   .register-container { padding: 0.5rem; gap: 0.5rem; }
+  .register-container-title{gap: 1rem;}
   .register-container-gray1,
   .register-container-gray2,
   .register-container-white1,
-  .register-container-white2 { width: 100%; flex-direction: column; }
-  .register-container-img{display: flex; width: 100%;}
-  .register-container-title-link { text-align: center; }
-  .getapp-section-links img { height: 2rem; }
-  .footer { padding: 1rem; }
+  .register-container-white2 { width: 100%; flex-direction: column;  }
+  .register-container-gray1 .register-container-img,
+.register-container-white2 .register-container-img {
+  background: linear-gradient(to left,#BFE2C4, #EDEDED);}
+  .register-container-white1 .register-container-img,
+.register-container-gray2 .register-container-img {
+  background: linear-gradient(to left, #BFE2C4, #F9F9F9);}
+  .register-container-img{display: flex;  width: 100%;}
+  .register-container-title-link { text-align: right; }
+  .getapp-section-links img {max-width: 80px; }
+  .getapp-section-container{padding: 0.5rem;}
+  .footer { padding: 2rem; }
   .footer-logo-section { gap: 1rem; }
+  .footer-list-menu{align-items: center;}
   .footer-logo { text-align: center; }
+  .footer-logo-section{text-align: center;}
+  .footer-list-item{list-style: none;}
   .footer-copyright { flex-direction: column; gap: 0.5rem; }
   .footer-social { justify-content: center; }
 }

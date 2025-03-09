@@ -37,7 +37,7 @@ const ScrollToTop = () => {
           color: "white",
           border: "none",
           borderRadius: "50%",
-          padding: "15px",
+          padding: "13px",
           boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
           cursor: "pointer",
           zIndex: 1000,
