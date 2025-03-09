@@ -464,7 +464,7 @@
 
 /* Footer Style */
 .footer {
-  margin-top: 2.5rem;
+  margin-top: 2rem;
   padding: 2rem;
   border-bottom: 1px solid #E4E4E4;
 }
@@ -475,7 +475,9 @@
   gap: 1.875rem;
   /* flex-wrap: wrap; */
 }
-
+.footer-list-menu{
+  margin-top: 2rem;
+}
 .footer-logo,
 .footer-list-menu {
   width: 20%;
@@ -488,12 +490,13 @@
 
 .footer-logo-img img {
   width: 100%;
-  max-width: 150px;
+  max-width: 200px;
   height: auto;
 }
 
 .footer-logo-title p {
-  font-size: clamp(0.625rem, 2vw, 0.7rem);
+  font-size: clamp(0.625rem, 3vw, 0.7rem);
+  line-height: 22px;
   font-weight: 600;
   color: #2D3633;
 }
@@ -629,7 +632,7 @@ button.slide-up { animation: slideUp 3s ease-in-out 0.5s; }
   .header-btn { padding: 0.5rem 0.75rem; max-width: 120px; gap: 0.3rem; }
   .header-btn span { font-size: clamp(0.7rem, 2vw, 0.75rem); }
   .header-btn img { height: 1rem; }
-  .hero-section { min-height: 400px; padding: 1rem; margin-top: 60px; background-size: contain; }
+  .hero-section { min-height: 400px; padding: 1rem; margin-top: 60px; background-size: 100%; }
   .under-hero-container { flex-wrap: wrap;}
   .under-hero-left{background-size:contain; background-position: center; min-height: 300px;}
   .under-hero-right-links{display: flex; gap:0.5rem;}
@@ -657,14 +660,14 @@ button.slide-up { animation: slideUp 3s ease-in-out 0.5s; }
   .header-btn { padding: 0.4rem 0.6rem; max-width: 100px; }
   .header-btn span { display: none; }
   .header-btn img { height: 0.9rem; }
-  .hero-section { min-height: 300px; padding: 0.5rem; margin-top: 50px; border-radius: 4px; background-size: contain; }
+  .hero-section { min-height: 300px; padding: 0.5rem; margin-top: 50px; border-radius: 4px; background-size: 100%; }
   .underhero { padding: 0.5rem; }
   .under-hero-right{padding: 1rem;}
   .under-hero-left{background-size: contain;}
   .under-hero-right h2 { margin-bottom: 0.5rem; }
   .under-hero-right h3 { margin-bottom: 1rem; }
   .under-hero-right-links{display: flex; gap:0.5rem;}
-  .under-hero-right a img{max-width: 120px;}
+  .under-hero-right a img{max-width: 83px;}
   .under-hero-left-img2 { max-width: 100px; }
   .date-calculation-container { padding: 0.5rem; }
   .date-calculation-part1 a { padding: 0.75rem 1rem; }
@@ -682,7 +685,7 @@ button.slide-up { animation: slideUp 3s ease-in-out 0.5s; }
   background: linear-gradient(to left, #BFE2C4, #F9F9F9);}
   .register-container-img{display: flex;  width: 100%;}
   .register-container-title-link { text-align: right; }
-  .getapp-section-links img {max-width: 120px; }
+  .getapp-section-links img {max-width: 85px; }
   .getapp-section-container{padding: 0.5rem;}
   .footer { padding: 2rem; }
   .footer-logo-section { gap: 1rem; }
