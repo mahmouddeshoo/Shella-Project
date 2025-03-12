@@ -8,7 +8,7 @@ function App() {
   return (
     <Suspense fallback={<div>Loading...</div>}>
       <Routes>
-        <Route path="/landingpage" element={<LandingPage />} />
+        <Route path="/" element={<LandingPage />} />
         <Route path="/join-as-driver" element={<JoinAsDriver />} />
         {/* <Route path="*" element={<NotFound />} /> */}
       </Routes>
