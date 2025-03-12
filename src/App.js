@@ -1,28 +1,17 @@
-
 import './component/css/landingpage.css';
-import Header from './component/header';
-import Hero from './component/hero'; 
-import AppDwonload from './component/dwonloadappf';
-import DateCalculation from './component/datecalculation';
-import RegesterContainer from './component/logcontainer';
-import Footer from './component/footer';
-import GetApp from './component/getapp';
-import ScrollToTop from './component/ScrollToTop';
+import React, { Suspense } from 'react';
+import { Routes, Route } from 'react-router-dom';
+const LandingPage = React.lazy(() => import('./component/pages/landingpage.js')); 
+const JoinAsDriver = React.lazy(() => import('./component/pages/joinasdriver.js')); 
 
 function App() {
   return (
-    <div className='App-container'>
-      <Header />
-    <div className={"bigcontainer"}>
-      <Hero />
-      <AppDwonload />
-      <DateCalculation />
-      <RegesterContainer />
-      <GetApp />
-      <Footer />
-      <ScrollToTop />
-    </div>
-    </div>
+    <Suspense fallback={<div>Loading...</div>}>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/join-as-driver" element={<JoinAsDriver />} />
+      </Routes>
+    </Suspense>
   );
 }
 
