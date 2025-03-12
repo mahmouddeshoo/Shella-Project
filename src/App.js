@@ -10,6 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/join-as-driver" element={<JoinAsDriver />} />
+        {/* <Route path="*" element={<NotFound />} /> */}
       </Routes>
     </Suspense>
   );
